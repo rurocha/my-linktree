@@ -1,0 +1,8 @@
+main {
+  background-color: var(--white-100);
+  height: 130px;
+  width: 100%;
+  border-radius: 90px 90px 0px 0px;
+  margin: -90px auto auto auto;
+  max-width: 1000px;
+}

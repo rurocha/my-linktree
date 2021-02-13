@@ -1,0 +1,38 @@
+header {
+  height: 500px;
+  background-image: url('../img/header.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.profile__img {
+  background: url('../img/ruan.jpg');
+  background-size: cover;
+  width: 118px;
+  height: 113px;
+  border-radius: 50%;
+}
+
+.profile__name, 
+.profile__job {
+  color: var(--white-900);
+}
+
+.profile__name {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.profile__job {
+  font-weight: 400;
+  font-size: 18px;
+}
