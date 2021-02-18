@@ -7,3 +7,11 @@
 li {
   list-style: none;
 }
+
+a {
+  text-decoration: none;
+}
+
+object {
+  pointer-events: none;
+}

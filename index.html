@@ -16,6 +16,56 @@
   </header>
 
   <main>
+    <div class="social-media">
+      <div class="social-media__items">
+      <h4 class="social-media__title">Minhas redes</h4>
+        <a href="https://github.com/rurocha" target="_blank" class="social-media__media social-media__media--github">
+          <object data="/assets/icons/icon-github.svg" type="image/svg+xml"></object>
+        </a>
+        <a href="https://www.instagram.com/ruan_frontend/" target="_blank" class="social-media__media social-media__media--instagram">
+          <object data="/assets/icons/icon-instagram.svg" type="image/svg+xml"></object>
+        </a>
+        <a href="https://myanimelist.net/profile/ruanvncs" target="_blank" class="social-media__media social-media__media--mal">
+          <object data="/assets/icons/icon-myanimelist.svg" type="image/svg+xml"></object>
+        </a>
+      </div>
+
+      <svg>
+        <filter id="gooey">
+          <feGaussianBlur in="SourceGrafic" stdDeviation="10"/>
+          <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 20 -10" result="gooey" />
+          <feBlend in="SourceGraphic" in2="gooey" />
+        </filter>
+      </svg>
+    </div>
+
+    <ul class="recommendations">
+      <h4 class="recommendations__title">Livros/Artigos</h4>
+      <img class="recommendations__icon" src="/assets/icons/icon-book.svg" alt="icone livro">
+
+      <li class="recommendations__item">
+        <a class="recommendations__link link link--icon" href="https://github.com/felipe-augusto/clean-code-javascript">javascript - Clean Code</a>
+      </li>
+
+      <li class="recommendations__item">
+        <a class="recommendations__link link link--icon" href="https://medium.com/trainingcenter/bem-em-5min-f5c80fd23439">CSS - BEM em 5min </a>
+      </li>
+    </ul>
+
+    <ul class="recommendations">
+      <h4 class="recommendations__title">Canais que recomendo</h4>
+      <img class="recommendations__icon" src="/assets/icons/icon-link.svg" alt="icone link">
+
+      <li class="recommendations__item">
+        <a class="recommendations__link link link--icon" href="https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog">CSS: Online Tutorials</a>
+      </li>
+      <li class="recommendations__item">
+        <a class="recommendations__link link link--icon" href="https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog">JS: Programador a bordo</a>
+      </li>
+      <li class="recommendations__item">
+        <a class="recommendations__link link link--icon" href="https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog">Linux: Boson Treinamentos</a>
+      </li>
+    </ul>
 
   </main>
 </body>

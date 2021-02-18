@@ -1,9 +1,13 @@
 :root {
   --green-100: #78DFCD; 
+  --green-100-alpha: #78dfcd94;
   --green-200: #269E89;
 
   --white-100: #EEF2FB;
   --white-900: #FFF;
 
   --black: #2F3C32;
+
+  --header-height: 500px;
+  --main-offset-y: -90px;
 }
