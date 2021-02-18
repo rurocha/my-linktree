@@ -35,7 +35,7 @@
   height: 100%;
   position: absolute;
   left: 100%;
-  background: url(/assets/icons/icon-arrow.svg) no-repeat;
+  background: url('../icons/icon-arrow.svg') no-repeat;
   margin-left: 20px;
   transition: 0.3s ease-in-out;
   opacity: 0;
