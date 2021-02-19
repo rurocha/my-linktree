@@ -95,5 +95,10 @@ svg {
   .social-media__items:hover .social-media__media {
     transform: translateY(0);
   }
+
+  .recommendations__link {
+    width: 80%;
+    display: block;
+  }
 }
 
