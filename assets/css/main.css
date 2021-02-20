@@ -100,5 +100,9 @@ svg {
     width: 80%;
     display: block;
   }
+
+  .recommendations__item {
+    overflow: hidden;
+  }
 }
 
