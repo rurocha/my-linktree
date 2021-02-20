@@ -11,15 +11,15 @@
 </defs>
 <style>
 .cloud-1 {
-  animation: cloud1-move alternate infinite 10s;
+  animation: cloud1-move alternate infinite 15s;
 }
 
 .cloud-2 {
-  animation: cloud2-move alternate infinite 10s;
+  animation: cloud2-move alternate infinite 15s;
 }
 
 .cloud-3 {
-  animation: cloud3-move alternate infinite 10s;
+  animation: cloud3-move alternate infinite 15s;
 }
 
 @keyframes cloud1-move {
